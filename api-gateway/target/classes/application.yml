@@ -1,0 +1,39 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/order-app-realm
+          jwk-set-uri: http://localhost:8080/realms/order-app-realm/protocol/openid-connect/certs
+
+  application:
+    name: api-gateway
+
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8765
+
+app:
+  keycloak:
+    admin:
+      username: bniass
+      password: Mouhamed1
+    issuerUri: http://localhost:8080/realms/order-app-realm
+    login:
+      url: http://localhost:8080/realms/order-app-realm/protocol/openid-connect/token
+    server:
+      url: http://localhost:8080
+    client-secret: cJJrq1EpcH9iGth1ZslSE376m5AlsbQF
+    realm:
+      name: order-app-realm
+    client-id: order-app
+    grant-type: password
+keycloak:
+  use-resource-role-mappings: 'true'
+  ssl-required: external
+
+logging:
+  file:
+    path: .

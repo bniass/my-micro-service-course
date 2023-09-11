@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: second-service
+
+  #kafka:
+    #bootstrap-servers: localhost:9092
+    #consumer:
+      #group-id: "default"
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: Mouhamed1
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=second-service&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+
+topic:
+  name: age-event-topic
+
+
+server:
+  port: 8086
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
+logging:
+  file:
+    path: /home/baye/IdeaProjects/my-micro-service-course/
+    name: my-elk-micro-service.log

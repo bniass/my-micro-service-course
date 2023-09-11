@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/apigateway.iml" filepath="$PROJECT_DIR$/api-gateway/apigateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-service/commonservice.iml" filepath="$PROJECT_DIR$/common-service/commonservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/configserver.iml" filepath="$PROJECT_DIR$/config-server/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first-service/firstservice.iml" filepath="$PROJECT_DIR$/first-service/firstservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-micro-service-course.iml" filepath="$PROJECT_DIR$/my-micro-service-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naming-server/namingserver.iml" filepath="$PROJECT_DIR$/naming-server/namingserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/second-service/secondservice.iml" filepath="$PROJECT_DIR$/second-service/secondservice.iml" />
+    </modules>
+  </component>
+</project>

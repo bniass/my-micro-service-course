@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: first-service
+
+
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: Mouhamed1
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=first-service&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+
+server:
+  port: 8085
+
+topic:
+  name: personne-event-topic
+
+kafka:
+  bootstrap-servers: localhost:19092
+  consumer:
+    group-id: "default"
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+#management:
+  #tracing:
+    #sampling:
+      #probability: 1.0
+  #zipkin:
+    #tracing:
+      #endpoint: http://zipkin:9411/api/v2/spans
+
+logging:
+  file:
+    path: /home/baye/IdeaProjects/my-micro-service-course/
+    name: my-elk-micro-service.log
