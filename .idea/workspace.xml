@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a0100e4-b5ca-458c-ab45-5c1371094ca8" name="Default Changelist" comment="" />
+    <list default="true" id="8a0100e4-b5ca-458c-ab45-5c1371094ca8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-service/src/test/java/com/ecole221/microsdervices/course/first/service/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-service/src/test/java/com/ecole221/microsdervices/course/second/service/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -39,12 +47,14 @@
     </option>
   </component>
   <component name="ProjectId" id="2R9Dc2XC7roBjfdVoKjHbFrbGpg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -57,22 +67,22 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.ecole221.microsdervices.course.api.gateway.security" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ecole221.microsdervices.course.common.service.dto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ecole221.microsdervices.course.second.service" />
+      <recent name="service" />
+      <recent name="com.ecole221.microsdervices.course.first.service.exception" />
+      <recent name="com.ecole221.microsdervices.course.common.service.exception" />
+      <recent name="com.ecole221.microsdervices.course.api.gateway.security" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api-gateway/src/main/java/com/ecole221/microsdervices/course/api/gateway/security" />
       <recent name="$PROJECT_DIR$/api-gateway/src/main/java/com/ecole221/microsdervices/course/api/gateway/controller" />
       <recent name="$PROJECT_DIR$/api-gateway/src/main/java/com/ecole221/microsdervices/course/api/gateway/model" />
       <recent name="$PROJECT_DIR$/api-gateway/src/main/java/com/ecole221/microsdervices/course/api/gateway" />
       <recent name="$PROJECT_DIR$/second-service/src/main/java/com/ecole221/microsdervices/course/second/service/config" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ecole221.microsdervices.course.first.service.exception" />
-      <recent name="com.ecole221.microsdervices.course.common.service.exception" />
-      <recent name="com.ecole221.microsdervices.course.api.gateway.security" />
-      <recent name="com.ecole221.microsdervices.course.api.gateway.service" />
-      <recent name="com.ecole221.microsdervices.course.api.gateway" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.ecole221.microsdervices.course.common.service.dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,11 +213,31 @@
       <workItem from="1693331426221" duration="598000" />
       <workItem from="1693590597422" duration="6690000" />
       <workItem from="1694167548234" duration="597000" />
+      <workItem from="1694433412963" duration="2620000" />
+      <workItem from="1694457482883" duration="596000" />
+      <workItem from="1694532429736" duration="1696000" />
+      <workItem from="1694799217158" duration="599000" />
+      <workItem from="1695147637939" duration="599000" />
+      <workItem from="1695635232456" duration="595000" />
+      <workItem from="1696353739245" duration="4714000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
